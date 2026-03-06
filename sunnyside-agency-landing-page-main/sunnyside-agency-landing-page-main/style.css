@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+}
+
+#container {
+    width: 100%;
+    height: auto;
+}
+#hero {
+    width: 100%;
+    height: 40vh;
+    background-color: #3ebfff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#child-hero {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#navbar {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar div {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+#btn1 {
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+}
+#bottom-hero {
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+#header-img {
+    width: 100%;
+    height: 94%;
+}
+#bottom-hero h1 {
+    color: white;
+    position: absolute;
+    left: 750px;
+    letter-spacing: 5px;
+}
+#arr-down-img {
+    height: 100px;
+    position: relative;
+    left: 920px;
+    top: 50px;
+    z-index: 1;
+}
+.flex {
+    width: 100%;
+    height: 50vh;
+}
+.text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-text {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+.child-text h2 {
+    font-weight: 900;
+}
+.child-text p {
+    color: #8e8b93;
+}
+.child-text button {
+    width: 20%;
+    border: none;
+    background-color: transparent;
+    z-index: 1;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.little {
+    width: 21%;
+    height: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 160px;
+}
+#little1 {
+    background-color: yellow;
+}
+.img {
+    width: 50%;
+    height: 100%;
+}
+#brend {
+    display: flex;
+}
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+#stand-out {
+    display: flex;
+}
+#little2 {
+    background-color: pink;
+}
+#twojob {
+    display: flex;
+}
+.divs {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.divs img {
+    width: 100%;
+    height: 100%;
+}
+.divs h1 {
+    position: absolute;
+    bottom: 140px;
+    left: 400px;
+    color: #23564d;
+}
+.divs p {
+    position: absolute;
+    bottom: 50px;
+    left: 350px;
+    color: #5c9b8c;
+}
+
+#humans {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#humans h1 {
+    letter-spacing: 3px;
+    color: #a8a8aa;
+}
+#child-humans {
+    width: 80%;
+    height: 70%;
+    display: flex;
+}
+.classhumans {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.classhumans img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+.classhumans h2 {
+    position: absolute;
+    bottom: 90px;
+}
+.littlep {
+    color: #c7c6c5;
+}
+
+#photos {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+.forphotos {
+    width: 25%;
+    height: 100%;
+}
+.forphotos img {
+    width: 100%;
+    height: 100%;
+}
+#footer {
+    width: 100%;
+    height: 40vh;
+    background-color: #90d4c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#info {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#info img {
+    width: 30%;
+}
+#links {
+    display: flex;
+    gap: 100px;
+}
+#links button {
+    border: none;
+    color: #478b7c;
+    background-color: transparent;
+}
+#social {
+    display: flex;
+    gap: 50px;
+}
